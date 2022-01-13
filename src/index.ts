@@ -1,9 +1,7 @@
+import {IUser} from "./models";
+
 console.log('Hello from TypeScript');
 
-export interface IUser{
-    id: number;
-    name: string;
-}
 
 export class User implements IUser{
     id: number = 1;
@@ -15,4 +13,4 @@ export class User implements IUser{
 
 const user = new User( { id: 2 });
 
-console.log(user);
+cons
